@@ -79,12 +79,16 @@ PRODUCT_PACKAGES += \
 
 # QCOM OMX
 PRODUCT_PACKAGES += \
-    libstagefrighthw \
-    libOmxCore \
-    libmm-omxcore \
-    libdivxdrmdecrypt \
-    libOmxVenc \
-    libOmxVdec
+     libstagefrighthw \
+     libOmxCore \
+     libmm-omxcore \
+     libdivxdrmdecrypt \
+     libOmxVenc \
+     libOmxVdec \
+     mm-vdec-omx-test \
+     mm-video-driver-test \
+     mm-venc-omx-test720p \
+     mm-video-encdrv-test
 
 # Misc
 PRODUCT_PACKAGES += \
