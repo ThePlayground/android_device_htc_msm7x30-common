@@ -15,12 +15,7 @@
 #
 
 # Inherit msm7x30 Vendor Files
-$(call inherit-product-if-exists, vendor/twisted/twisted-vendor.mk)
-$(call inherit-product-if-exists, vendor/twisted/google-vendor.mk)
 $(call inherit-product-if-exists, vendor/qcom/qcom-vendor-blobs.mk)
-
-# Inherit Language Files
-$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 PRODUCT_COPY_FILES += \
     device/htc/msm7x30-common/kernel/init.msm7x30.usb.rc:root/init.msm7x30.usb.rc
@@ -63,7 +58,6 @@ PRODUCT_COPY_FILES += \
     device/htc/msm7x30-common/system/etc/media_profiles.xml:system/etc/media_profiles.xml
 
 PRODUCT_PACKAGE_OVERLAYS += device/htc/msm7x30-common/overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/cm/overlay/dictionaries
 
 # Audio
 PRODUCT_PACKAGES += \
