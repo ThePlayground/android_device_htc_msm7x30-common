@@ -491,10 +491,14 @@ int camera_set_preview_window(struct camera_device * device,
         return -1;
     }
 
-#ifdef MISSING_CAM_EXTERNAL_IMAGE
+#ifndef CAF_PARAMS
+    window->set_usage(window, GRALLOC_USAGE_PMEM_PRIVATE_ADSP | GRALLOC_USAGE_SW_READ_OFTEN);
+#else
+#ifdef CPU_COLOR_CONVERT
     window->set_usage(window, GRALLOC_USAGE_PMEM_PRIVATE_ADSP | GRALLOC_USAGE_SW_READ_OFTEN);
 #endif
-
+#endif
+    
     if (window->set_buffers_geometry(window, preview_width,
                                      preview_height, hal_pixel_format)) {
         LOGE("%s---: could not set buffers geometry to %s",
