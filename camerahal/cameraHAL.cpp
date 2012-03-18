@@ -387,6 +387,7 @@ static void wrap_data_callback_timestamp(nsecs_t timestamp, int32_t msg_type,
 
 }
 
+#ifdef CAF_PARAMS
 static String8 create_values_str(const str_map *values, int len) {
     String8 str;
     
@@ -399,6 +400,7 @@ static String8 create_values_str(const str_map *values, int len) {
     }
     return str;
 }
+#endif
 
 /*******************************************************************
  * implementation of priv_camera_device_ops functions
