@@ -869,6 +869,9 @@ char* camera_get_parameters(struct camera_device * device)
 
 #ifdef HTC_FFC
     if (dev->cameraid == 1) {
+#ifdef OFFSET_FFC
+        camParams.set(CameraParameters::KEY_ROTATION, 0);
+#endif
 #ifdef REVERSE_FFC
         /* Change default parameters for the front camera */
         camParams.set("front-camera-mode", "reverse"); // default is "mirror"
