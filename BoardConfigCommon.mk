@@ -54,7 +54,7 @@ BOARD_WLAN_DEVICE_REV            := bcm4329
 WIFI_BAND                        := 802_11_ABGN
 
 # Older Touchscreen Support
-# BOARD_USE_LEGACY_TOUCHSCREEN := true
+BOARD_USE_LEGACY_TOUCHSCREEN := true
 
 BOARD_USES_ADRENO_200 := true
 
