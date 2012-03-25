@@ -45,7 +45,7 @@ PRODUCT_COPY_FILES += \
     device/htc/msm7x30-common/system/etc/firmware/vidc_720p_mp4_dec_mc.fw:system/etc/firmware/vidc_720p_mp4_dec_mc.fw \
     device/htc/msm7x30-common/system/etc/firmware/vidc_720p_mp4_enc_mc.fw:system/etc/firmware/vidc_720p_mp4_enc_mc.fw \
     device/htc/msm7x30-common/system/etc/firmware/vidc_720p_vc1_dec_mc.fw:system/etc/firmware/vidc_720p_vc1_dec_mc.fw \
-    device/htc/msm7x30-common/system/etc/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd
+    device/htc/msm7x30-common/system/etc/firmware/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd
 
 $(call inherit-product-if-exists, hardware/broadcom/wlan/bcm4329/firmware/Android.mk)
 
