@@ -91,14 +91,14 @@
 
         <EncoderProfile quality="qcif" fileFormat="mp4" duration="30">
             <Video codec="h264"
-                    bitRate="1200000"
-                    width="176"
-                    height="144"
-                    frameRate="14" />
+            bitRate="1200000"
+            width="176"
+            height="144"
+            frameRate="14" />
             <Audio codec="amrnb"
-                    bitRate="12200"
-                    sampleRate="8000"
-                    channels="1" />
+            bitRate="12200"
+            sampleRate="8000"
+            channels="1" />
         </EncoderProfile>
 
         <EncoderProfile quality="qvga" fileFormat="3gp" duration="60">
