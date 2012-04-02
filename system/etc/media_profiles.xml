@@ -15,11 +15,11 @@
 -->
 <!DOCTYPE MediaSettings [
 <!ELEMENT MediaSettings (CamcorderProfiles,
-                         EncoderOutputFileFormat+,
-                         VideoEncoderCap+,
-                         AudioEncoderCap+,
-                         VideoDecoderCap,
-                         AudioDecoderCap)>
+EncoderOutputFileFormat+,
+VideoEncoderCap+,
+AudioEncoderCap+,
+VideoDecoderCap,
+AudioDecoderCap)>
 <!ELEMENT CamcorderProfiles (EncoderProfile+, ImageEncoding+, ImageDecoding, Camera)>
 <!ELEMENT EncoderProfile (Video, Audio)>
 <!ATTLIST EncoderProfile quality (720p|qcif) #REQUIRED>
