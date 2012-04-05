@@ -53,6 +53,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/htc/msm7x30-common/system/media/bootanimation.zip:system/media/bootanimation.zip
 
+# boot sound
+PRODUCT_COPY_FILES += \
+    device/htc/msm7x30-common/system/etc/init.local.rc:system/etc/init.local.rc \
+    device/htc/msm7x30-common/system/media/android_audio.mp3:system/media/android_audio.mp3 \
+    device/htc/msm7x30-common/system/bin/bootsound:system/bin/bootsound
+
 # media config xml file
 PRODUCT_COPY_FILES += \
     device/htc/msm7x30-common/system/etc/media_profiles.xml:system/etc/media_profiles.xml
