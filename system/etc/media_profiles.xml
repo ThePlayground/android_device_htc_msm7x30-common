@@ -94,7 +94,7 @@ AudioDecoderCap)>
             bitRate="1200000"
             width="176"
             height="144"
-            frameRate="14" />
+            frameRate="15" />
             <Audio codec="amrnb"
             bitRate="12200"
             sampleRate="8000"
@@ -118,7 +118,7 @@ AudioDecoderCap)>
             bitRate="1200000"
             width="352"
             height="288"
-            frameRate="30" />
+            frameRate="31" />
             <Audio codec="aac"
             bitRate="96000"
             sampleRate="48000"
@@ -130,7 +130,7 @@ AudioDecoderCap)>
             bitRate="8000000"
             width="400"
             height="240"
-            frameRate="15" />
+            frameRate="31" />
             <Audio codec="amrnb"
             bitRate="12200"
             sampleRate="8000"
@@ -142,7 +142,7 @@ AudioDecoderCap)>
             bitRate="5000000"
             width="640"
             height="480"
-            frameRate="30" />
+            frameRate="31" />
             <Audio codec="aac"
             bitRate="96000"
             sampleRate="48000"
@@ -154,7 +154,7 @@ AudioDecoderCap)>
             bitRate="1200000"
             width="800"
             height="480"
-            frameRate="30" />
+            frameRate="31" />
             <Audio codec="aac"
             bitRate="96000"
             sampleRate="48000"
@@ -166,7 +166,7 @@ AudioDecoderCap)>
             bitRate="192000"
             width="854"
             height="480"
-            frameRate="30" />
+            frameRate="31" />
             <Audio codec="aac"
             bitRate="96000"
             sampleRate="48000"
@@ -178,7 +178,7 @@ AudioDecoderCap)>
             bitRate="5000000"
             width="720"
             height="480"
-            frameRate="30" />
+            frameRate="31" />
             <Audio codec="aac"
             bitRate="96000"
             sampleRate="48000"
@@ -190,7 +190,7 @@ AudioDecoderCap)>
             bitRate="8000000"
             width="1280"
             height="720"
-            frameRate="30" />
+            frameRate="31" />
             <Audio codec="aac"
             bitRate="96000"
             sampleRate="48000"
@@ -202,7 +202,7 @@ AudioDecoderCap)>
             bitRate="192000"
             width="176"
             height="144"
-            frameRate="30" />
+            frameRate="31" />
             <!-- audio setting is ignored -->
             <Audio codec="amrnb"
             bitRate="12200"
@@ -215,7 +215,7 @@ AudioDecoderCap)>
             bitRate="1200000"
             width="352"
             height="288"
-            frameRate="30" />
+            frameRate="31" />
             <!-- audio setting is ignored -->
             <Audio codec="aac"
             bitRate="96000"
@@ -228,7 +228,7 @@ AudioDecoderCap)>
             bitRate="5000000"
             width="720"
             height="480"
-            frameRate="30" />
+            frameRate="31" />
             <!-- audio setting is ignored -->
             <Audio codec="aac"
             bitRate="96000"
@@ -241,7 +241,7 @@ AudioDecoderCap)>
             bitRate="8000000"
             width="1280"
             height="720"
-            frameRate="30" />
+            frameRate="31" />
             <!-- audio setting is ignored -->
             <Audio codec="aac"
             bitRate="96000"
@@ -275,7 +275,7 @@ AudioDecoderCap)>
             bitRate="1200000"
             width="352"
             height="288"
-            frameRate="30" />
+            frameRate="31" />
             <Audio codec="aac"
             bitRate="96000"
             sampleRate="48000"
@@ -287,7 +287,7 @@ AudioDecoderCap)>
             bitRate="5000000"
             width="720"
             height="480"
-            frameRate="30" />
+            frameRate="31" />
             <Audio codec="aac"
             bitRate="96000"
             sampleRate="48000"
@@ -299,7 +299,7 @@ AudioDecoderCap)>
             bitRate="8000000"
             width="1280"
             height="720"
-            frameRate="30" />
+            frameRate="31" />
             <Audio codec="aac"
             bitRate="96000"
             sampleRate="48000"
@@ -311,7 +311,7 @@ AudioDecoderCap)>
             bitRate="192000"
             width="176"
             height="144"
-            frameRate="30" />
+            frameRate="31" />
             <!-- audio setting is ignored -->
             <Audio codec="amrnb"
             bitRate="12200"
@@ -324,7 +324,7 @@ AudioDecoderCap)>
             bitRate="1200000"
             width="352"
             height="288"
-            frameRate="30" />
+            frameRate="31" />
             <!-- audio setting is ignored -->
             <Audio codec="aac"
             bitRate="96000"
@@ -337,7 +337,7 @@ AudioDecoderCap)>
             bitRate="5000000"
             width="720"
             height="480"
-            frameRate="30" />
+            frameRate="31" />
             <!-- audio setting is ignored -->
             <Audio codec="aac"
             bitRate="96000"
@@ -350,7 +350,7 @@ AudioDecoderCap)>
             bitRate="8000000"
             width="1280"
             height="720"
-            frameRate="30" />
+            frameRate="31" />
             <!-- audio setting is ignored -->
             <Audio codec="aac"
             bitRate="96000"
@@ -377,19 +377,19 @@ AudioDecoderCap)>
         minBitRate="64000" maxBitRate="12000000"
         minFrameWidth="176" maxFrameWidth="1280"
         minFrameHeight="144" maxFrameHeight="720"
-        minFrameRate="15" maxFrameRate="30" />
+        minFrameRate="15" maxframeRate="31" />
 
     <VideoEncoderCap name="h263" enabled="true"
         minBitRate="64000" maxBitRate="4000000"
         minFrameWidth="176" maxFrameWidth="1280"
         minFrameHeight="144" maxFrameHeight="720"
-        minFrameRate="15" maxFrameRate="30" />
+        minFrameRate="15" maxframeRate="31" />
 
     <VideoEncoderCap name="m4v" enabled="true"
         minBitRate="64000" maxBitRate="4000000"
         minFrameWidth="176" maxFrameWidth="1280"
         minFrameHeight="144" maxFrameHeight="720"
-        minFrameRate="15" maxFrameRate="30" />
+        minFrameRate="15" maxframeRate="31" />
 
     <AudioEncoderCap name="aac" enabled="true"
         minBitRate="8000" maxBitRate="96000"
