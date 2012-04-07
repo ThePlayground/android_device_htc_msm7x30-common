@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
     device/htc/msm7x30-common/system/etc/firmware/vidc_720p_vc1_dec_mc.fw:system/etc/firmware/vidc_720p_vc1_dec_mc.fw \
     device/htc/msm7x30-common/system/vendor/firmware/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd \
     device/htc/msm7x30-common/system/vendor/firmware/fw_bcm4329.bin:system/vendor/firmware/fw_bcm4329.bin \
+    device/htc/msm7x30-common/system/vendor/firmware/fw_bcm4329_p2p.bin:system/vendor/firmware/fw_bcm4329_p2p.bin \
     device/htc/msm7x30-common/system/vendor/firmware/fw_bcm4329_apsta.bin:system/vendor/firmware/fw_bcm4329_apsta.bin
 
 # bootanimation
