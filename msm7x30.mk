@@ -104,8 +104,6 @@ PRODUCT_PACKAGES += \
 # we have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
 
-# use high-density artwork where available
-PRODUCT_LOCALES += hdpi
-
+# Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
