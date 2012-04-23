@@ -39,7 +39,6 @@ ARCH_ARM_HAVE_VFP := true
 USE_MALLOC_ALIGNMENT := 16
 
 TARGET_SPECIFIC_HEADER_PATH := device/htc/msm7x30-common/include
-# TARGET_CUSTOM_WIFI := device/htc/msm7x30-common/hardware/wifi/wifi.c
 
 # Merged Wifi Defines
 WIFI_BAND                        := 802_11_ABG
@@ -86,6 +85,7 @@ BOARD_USES_HTC_CAMERA := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/usb_mass_storage/lun0/file
 
 COMMON_GLOBAL_CFLAGS += -DQCOM_HARDWARE -DSCREEN_RELEASE -DREFRESH_RATE=60
+COMMON_GLOBAL_CFLAGS += -DQCOM_ROTATOR_KERNEL_FORMATS
 
 BOARD_EGL_GRALLOC_USAGE_FILTER := true
 
