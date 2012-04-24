@@ -53,9 +53,6 @@ WIFI_DRIVER_MODULE_NAME          := bcm4329
 WIFI_DRIVER_MODULE_PATH          := "/system/lib/modules/bcm4329.ko"
 WIFI_DRIVER_MODULE_ARG := "firmware_path=/vendor/firmware/fw_bcm4329.bin nvram_path=/proc/calibration iface_name=wlan"
 
-# Older Touchscreen Support
-BOARD_USE_LEGACY_TOUCHSCREEN := true
-
 BOARD_USES_ADRENO_200 := true
 
 USE_OPENGL_RENDERER := true
