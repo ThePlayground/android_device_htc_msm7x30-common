@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-# Inherit msm7x30 Vendor Files
+# Inherit Qualcomm prebuilt libraries
 $(call inherit-product-if-exists, vendor/qcom/qcom-vendor-blobs.mk)
 
 PRODUCT_COPY_FILES += \
