@@ -3,6 +3,7 @@ $(call inherit-product, vendor/qcom/proprietary/qcom-vendor.mk)
 
 # include
 PRODUCT_COPY_FILES += \
+    device/htc/msm7x30-common/system/app/Camera.apk:system/app/Camera.apk \
     device/htc/msm7x30-common/init.htc7x30.usb.rc:root/init.htc7x30.usb.rc
 
 # firmware
@@ -44,8 +45,7 @@ PRODUCT_PACKAGES += \
     audio.a2dp.default \
     audio_policy.msm7x30 \
     audio.primary.msm7x30 \
-    libaudioutils \
-    libtinyalsa
+    libaudioutils
 
 # qcom graphics
 PRODUCT_PACKAGES += \
