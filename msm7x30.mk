@@ -18,7 +18,7 @@
 $(call inherit-product-if-exists, vendor/qcom/qcom-vendor-blobs.mk)
 
 PRODUCT_COPY_FILES += \
-    device/htc/msm7x30-common/kernel/init.msm7x30.usb.rc:root/init.msm7x30.usb.rc
+    device/htc/msm7x30-common/kernel/init.htc7x30.usb.rc:root/init.htc7x30.usb.rc
 
 PRODUCT_COPY_FILES += \
     frameworks/base/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
